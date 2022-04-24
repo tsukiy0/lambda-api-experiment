@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@packages/domain": "*",
-    "@tsukiy0/aws-cdk-tools": "0.1.1-alpha.07759afcd78989f92fc7a1a55699002856fc4e36.27",
-    "aws-cdk-lib": "2.4.0",
-    "constructs": "10.0.27"
+    "@tsukiy0/aws-cdk-tools": "0.1.1-alpha.836d6b799eb000efacb6c5130eea0171b5c7a57f.49",
+    "aws-cdk-lib": "2.21.0",
+    "constructs": "10.0.122",
+    "@aws-cdk/aws-apigatewayv2-alpha": "2.21.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "2.21.0-alpha.0"
   },
   "devDependencies": {
     "@packages/config": "*",
