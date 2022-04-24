@@ -59,7 +59,7 @@ export class Api extends Construct {
     });
 
     new StringParameter(this, "HttpApiUrlParam", {
-      parameterName: "function/httpapi/url",
+      parameterName: "/function/httpapi/url",
       stringValue: httpApi.url!,
     });
   }
