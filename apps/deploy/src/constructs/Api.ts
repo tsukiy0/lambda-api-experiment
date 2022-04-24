@@ -29,6 +29,7 @@ export class Api extends Construct {
       handler: "index.handler",
       memorySize: 128,
       retryAttempts: 0,
+      reservedConcurrentExecutions: 1,
       timeout: Duration.seconds(30),
       logRetention: RetentionDays.ONE_DAY,
     });
