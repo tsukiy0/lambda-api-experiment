@@ -1,7 +1,7 @@
-const withTM = require("next-transpile-modules")(["@packages/domain"]);
+const withTM = require("next-transpile-modules")();
 
 module.exports = withTM({
   reactStrictMode: true,
   poweredByHeader: false,
-  trailingSlash: true
+  trailingSlash: true,
 });
