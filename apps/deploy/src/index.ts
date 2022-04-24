@@ -1,5 +1,4 @@
 import { App } from "aws-cdk-lib";
-import { Environment } from "@packages/domain";
 import { AppStack } from "./stacks/AppStack";
 import { ExternalStack } from "./stacks/ExternalStack";
 
