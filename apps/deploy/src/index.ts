@@ -23,7 +23,7 @@ const config: Record<
   },
 };
 
-const external = new ExternalStack(app, "External", {
+const external = new ExternalStack(app, "LambdaApiExperimentExternal", {
   env: {
     account,
     region,
@@ -31,7 +31,7 @@ const external = new ExternalStack(app, "External", {
   ...config[environment],
 });
 
-new AppStack(app, "App", {
+new AppStack(app, "LambdaApiExperimentApp", {
   env: {
     account,
     region,
